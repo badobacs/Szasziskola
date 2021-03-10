@@ -1,0 +1,2 @@
+
+print(*sorted("töltöttkáposzta"), sep="*")

@@ -1,0 +1,117 @@
+
+.content{
+    border-radius: 10px;
+}
+
+
+
+header{
+    width: 840px;
+    height: 160px;
+    
+    background-image: url("https://raw.githubusercontent.com/badobacs/Teszt/master/husham/Pic/KEP_00991.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 50px;
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > ul > li{
+    display: inline;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    ;
+}
+
+a, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+a:hover{
+    background-color: rgb(38, 107, 25);
+    color: white;
+    border-radius: 5px;
+}
+ .content{
+     width: 840px;
+     margin: 0 auto;
+     background-color: yellowgreen;
+ }
+ article>p{
+     padding: 0 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+ }
+ .terkep{
+    width: 300px;
+    float: right;
+    margin: 0 11px;
+    text-align: center;
+ }
+ .terkep>p{
+     color: whitesmoke;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: bold;
+     font-style: italic;
+ }
+ .terkep>img{
+     width: 230px;
+ }
+
+ input[type="submit"]{
+     width: 100px;
+     height: 33px;
+     background-color: rgb(38, 107, 25);
+    color: white;
+    border-radius: 5px;
+ }
+ input[type="submit"]:hover{
+     background-color: teal;
+ }
+ legend{
+     font-size: 20px;
+     font-weight: bold;
+     color: rgb(9, 14, 1);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ fieldset{
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     border: 2px solid rgb(13, 136, 70);
+     border-radius: 3px;
+     padding: 15px 10px;
+     background-color: rgb(84, 138, 138);
+ }
+ form{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 200px;
+     align-items: center;
+     color: rgb(57, 77, 19);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }

@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: 
+    "egyes kettes"
+    "harmas negyes";
+    }
+
+    .egyes:hover{
+        background-color: aqua;
+        width: 50vw;
+        height: 50vh;
+    }
+    .kettes:hover{
+        background-color: chartreuse;
+        width: 50vw;
+        height: 50vh;
+    }
+    .harmas:hover{
+        background-color: rgb(255, 238, 0);
+        width: 50vw;
+        height: 50vh;
+    }
+    .negyes:hover{
+        background-color: rgb(255, 0, 200);
+        width: 50vw;
+        height: 50vh;
+    }

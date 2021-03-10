@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alapok2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="formbox">
+        <form action="">
+            <div class="part1">
+                <div id="textInput">
+                    <label for="name">Név</label>
+                    <input type="text" name="Name" id="name">
+                </div>
+
+
+                <div id="textInput">
+                    <label for="age">Kor</label>
+                    <input type="number" name="age" id="age">
+                </div>
+            </div>
+
+            <div id="part1">
+                <fieldset>
+                    <legend>Végzettség</legend>
+                    <div id="option">
+                        <label for="degree1">Altalános iskola</label>
+                        <input type="checkbox" name="degrel" id="degree1" value="">
+                        <span class="checkmark"></span>
+                    </div>
+                    <div id="option">
+                        <label for="degree2">Érettségi</label>
+                        <input type="checkbox" name="degree2" id="degree2" value="Érettségi">
+                    </div>
+                    <div id="option">
+                        <label for="degree1">Föiskola/Egyetem</label>
+                        <input type="checkbox" name="degree3" id="degree3" value="Diploma">
+                    </div>
+                    <label for="degree4">OKJ
+                        <input type="checkbox" name="degree" id="degree4" value="OKJ">
+                    </label>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Részleg</legend>
+                    <div id="option">
+                        <label for="dep1">Hr osztály</label>
+                        <input type="radio" name="dep1" id="dep1">
+                    </div>
+                    <div id="option">
+                        <label for="dep2">Pénzügy</label>
+                        <input type="radio" name="dep1" id="dep2">
+                    </div>
+                    <div id="option">
+                        <label for="dep3">Fejlesztés</label>
+                        <input type="radio" name="dep1" id="dep3">
+                    </div>
+
+
+
+
+
+                </fieldset>
+            </div>
+            <div id="part2">
+                <label for="experience">Tapasztlat:
+                    <select name="experience" id="experience">
+                        <option value="0">Pályakezdö</option>
+                        <option value="0">Junior (1-3év)</option>
+                        <option value="0">Medior (3-5év)</option>
+                        <option value="0">Senior (5+év)</option>
+                    </select>
+                </label>
+
+
+                <input type="submit" value="Küldés">
+
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+4
+megye1 4
+megye2 5
+megye3 1
+megye4 7
+17

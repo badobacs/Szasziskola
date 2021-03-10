@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+#egyes,
+#kettes,
+#harmas,
+#negyes{
+    height: 50vh;
+    width: 50vw;
+}   
+
+.container{
+    display: grid;
+    
+}

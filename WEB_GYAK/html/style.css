@@ -1,0 +1,73 @@
+#formbox {
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #2291ff;
+    background-color: #f2f8ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+fieldset > legend{
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e3761;
+}
+#formbox > form {
+    display: flex;
+    flex-direction: column;
+}
+#part1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #b0d8ff;
+    color: rgb(104, 100, 100);
+    border-radius: 10px;
+    padding: 15px 10px;
+    background-color: #ddeeff;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    background-color: teal;
+    color: thistle;
+    border: 1px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+input[type="submit"]:hover{
+    background-color: lime;
+}
+input[type="text"], input[type="number"]{
+    height: 30px;
+    border: 1px solid #ddeeff;
+    border-radius: 10px;
+}
+
+
+
+.option > input:checked ~ .checkmark {
+    color: red;
+    background-color: aqua;
+}

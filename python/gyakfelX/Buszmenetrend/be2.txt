@@ -1,0 +1,6 @@
+5
+Budapest -1 480
+Dunaujvaros 549 550
+Paks 580 582
+Szekszard 604 605
+Mohacs 655 9999

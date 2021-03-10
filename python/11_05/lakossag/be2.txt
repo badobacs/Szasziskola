@@ -1,0 +1,7 @@
+6
+megye1 telepules1 1
+megye1 telepules2 1
+megye1 telepules3 1
+megye1 telepules4 1
+megye1 telepules5 1
+megye1 telepules6 1
