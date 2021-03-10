@@ -22,7 +22,7 @@ In diesem Repository finden Sie die Unterrichtsmaterialien und Übungen der Szas
 
 # Szasziskola
 
-In this repository you can find the Saxon School lesson materials and practice according to the following topics:
+In this repository you can find the Szasziskola lesson materials and practice according to the following topics:
 
 - Web development 
     - Frontend
